@@ -1,0 +1,10 @@
+PODS:
+  - MJExtension (2.3.6)
+
+DEPENDENCIES:
+  - MJExtension (~> 2.3.5)
+
+SPEC CHECKSUMS:
+  MJExtension: eb9d381740563b520fbabdfa6caf92d666314467
+
+COCOAPODS: 0.36.3
