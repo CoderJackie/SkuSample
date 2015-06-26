@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>84CA7E5C-67CC-47BF-B641-AC5039A2CE31</string>
+	<key>IDESourceControlProjectName</key>
+	<string>SkuSample</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>795093D6A9A00B3D2962FDD8B57BF7DD686F93AF</key>
+		<string>github.com:CoderJackie/SkuSample.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>SkuSample/SkuSample.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>795093D6A9A00B3D2962FDD8B57BF7DD686F93AF</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:CoderJackie/SkuSample.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>795093D6A9A00B3D2962FDD8B57BF7DD686F93AF</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>795093D6A9A00B3D2962FDD8B57BF7DD686F93AF</string>
+			<key>IDESourceControlWCCName</key>
+			<string>SkuSample</string>
+		</dict>
+	</array>
+</dict>
+</plist>

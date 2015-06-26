@@ -1,0 +1,41 @@
+
+
+#import <Availability.h>
+
+#ifndef __IPHONE_5_0
+#warning "This project uses features only available in iOS SDK 5.0 and later."
+#endif
+
+#ifdef __OBJC__
+
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <CoreGraphics/CoreGraphics.h>
+#import <MJExtension/MJExtension.h>
+#import <Masonry/Masonry.h>
+#import <SDWebImage/UIImageView+WebCache.h>
+#import "NSString+Extend.h"
+#import "UIView+Nib.h"
+
+/// 数值转字符串
+#define kIntToString(intValue) ([NSString stringWithFormat:@"%@", @(intValue)])
+#define kNumberToString(NumberValue) ([NSString stringWithFormat:@"%@", NumberValue])
+#define StrToInt(str) [str integerValue]
+#define StrToDouble(str) [str doubleValue]
+#define DoubleStringFormat(str) [NSString stringWithFormat:@"%.2f", [str doubleValue]]
+
+/// block self
+#define kSelfWeak __weak typeof(self) weakSelf = self
+#define kSelfStrong __strong __typeof__(self) strongSelf = weakSelf
+
+/// Height/Width
+#define kScreenWidth        [UIScreen mainScreen].applicationFrame.size.width
+#define kScreenHeight       [UIScreen mainScreen].applicationFrame.size.height
+#define kAllHeight          ([UIScreen mainScreen].applicationFrame.size.height + 20.0)
+#define kBodyHeight         ([UIScreen mainScreen].applicationFrame.size.height - 44.0)
+#define kTabbarHeight       49
+#define kSearchBarHeight    45
+#define kStatusBarHeight    20
+#define kNavigationHeight   44
+
+#endif

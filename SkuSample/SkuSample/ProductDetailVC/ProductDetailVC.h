@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  ProductDetailVC.h
 //  SkuSample
 //
 //  Created by xujiaqi on 15/6/26.
@@ -8,8 +8,7 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface ProductDetailVC : UIViewController
+- (IBAction)SkuClick;
 
 @end
-
